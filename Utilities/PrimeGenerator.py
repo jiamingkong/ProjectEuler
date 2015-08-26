@@ -1,14 +1,17 @@
 import math
 
-def PrimeGenerator(count = None):
+def PrimeGenerator(count = None, under = None):
     D = {}
     q = 2
     c = 0
     if count is None:
-        test = lambda x: True
+        test = lambda c, q: True
     else:
-        test = lambda x: x < count
-    while test(c):
+        test = lambda c, q: c < count
+    if under is not None:
+        test = lambda c, q: q <= under
+
+    while test(c,q):
         if q not in D:
             yield q
             c+= 1
@@ -28,5 +31,5 @@ def is_prime(n):
     return n > 1;
 
 if __name__ == '__main__':
-    for i in PrimeGenerator(100):
+    for i in PrimeGenerator(under = 100):
         print i
