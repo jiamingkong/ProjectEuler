@@ -23,5 +23,23 @@ def num_of_divisors(x):
         result *= (i + 1)
     return result
 
+def list_divisors(num):
+    primes = Counter(prime_factors(num)).items()
+    nFactors = len(primes)
+    f = [0] * nFactors
+    while True:
+        yield reduce(lambda x, y: x*y, [primes[x][0]**f[x] for x in range(nFactors)], 1)
+        i = 0
+        while True:
+            f[i] += 1
+            if f[i] <= primes[i][1]:
+                break
+            f[i] = 0
+            i += 1
+            if i >= nFactors:
+                return
+
+
 if __name__ == '__main__':
-    print num_of_divisors(28)
+    # print num_of_divisors(28)
+    print list(list_divisors(100))
