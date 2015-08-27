@@ -1,3 +1,4 @@
+from collections import Counter
 
 def prime_factors(x):
     factors = []
@@ -14,3 +15,13 @@ def prime_factors(x):
         factors.append(x)
     return factors
 
+def num_of_divisors(x):
+    primes = prime_factors(x)
+    things = Counter(primes)
+    result = 1
+    for i in things.values():
+        result *= (i + 1)
+    return result
+
+if __name__ == '__main__':
+    print num_of_divisors(28)
