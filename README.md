@@ -6,4 +6,5 @@ Me solving the project euler problem using whatever language I want.
 
 1. gcd
 2. Prime Factorization by Sieve
-3. Prime Generator, unranged generation, Sieve.
+3. Prime Generator, unranged generation, Sieve, list of divisors
+4. two sum solver.
