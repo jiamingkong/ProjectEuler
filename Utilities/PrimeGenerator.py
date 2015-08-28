@@ -25,6 +25,8 @@ def PrimeGenerator(count = None, under = None):
 
 
 def is_prime(n):
+    if n <= 0:
+        return False
     for i in xrange(2, int(math.sqrt(n)+1)):
         if n%i == 0:
             return False
