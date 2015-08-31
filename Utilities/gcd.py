@@ -8,3 +8,7 @@ def lcm(*numbers):
     def lcm(a, b):
         return (a * b) // gcd(a, b)
     return reduce(lcm, numbers, 1)
+
+def fraction_reduce(x, y):
+    g = gcd(x,y)
+    return x / g, y / g
