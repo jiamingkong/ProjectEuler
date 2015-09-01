@@ -1,0 +1,2 @@
+def truncate(number):
+    pass
