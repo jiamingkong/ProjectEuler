@@ -10,4 +10,4 @@ for i in os.listdir(os.getcwd()):
         os.rename(os.path.join(os.getcwd(), i), os.path.join(os.getcwd(), number_complete(i)))
 
         print i, ">>", number_complete(i)
-        S = raw_input()
+        # S = raw_input()
