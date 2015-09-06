@@ -1,4 +1,5 @@
 import math
+from gcd import gcd
 
 def PrimeGenerator(count = None, under = None):
     D = {}
@@ -32,6 +33,25 @@ def is_prime(n):
             return False
     return n > 1;
 
+def __euler_loop(n):
+    coprimes = [1]
+    for i in xrange(2, n):
+        if gcd(i, n) == 1:
+            coprimes.append(i)
+    return len(coprimes)
+
+def totient(n):
+    if not isinstance(n, int) or n < 1:
+        raise ValueError("Can't compute totient function for {n}".format(n = n))
+    if n == 1:
+        return 1
+    elif is_prime(n):
+        return n -1
+    else:
+        return __euler_loop(n)
+
 if __name__ == '__main__':
-    for i in PrimeGenerator(under = 100):
-        print i
+    # for i in PrimeGenerator(under = 100):
+        # print i
+
+    print totient(10)
