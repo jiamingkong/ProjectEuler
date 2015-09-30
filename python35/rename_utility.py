@@ -18,9 +18,9 @@ def find_missing():
         if c > current_max:
             current_max = c
         found.append(c)
-    for i in xrange(1,current_max + 1):
+    for i in range(1,current_max + 1):
         if i not in found:
-            print("Problem {n} missing!".format(n = i))
+            print(("Problem {n} missing!".format(n = i)))
 
 
 def file_yielder():
@@ -32,8 +32,8 @@ def file_yielder():
 def rename_main():
     for i in file_yielder():
         os.rename(os.path.join(os.getcwd(), i), os.path.join(os.getcwd(), number_complete(i)))
-        print(i, ">>", number_complete(i))
+        print((i, ">>", number_complete(i)))
 
 if __name__ == '__main__':
-    # rename_main()
+    rename_main()
     find_missing()
