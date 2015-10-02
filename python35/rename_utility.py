@@ -1,14 +1,16 @@
 import os
 
+
 def number_complete(filename):
     serial = __get_serial(filename)
-    return "Problem{num}.py".format(num = "%03d"%serial)
+    return "Problem{num}.py".format(num="%03d" % serial)
 
 
 def __get_serial(filename):
     _fn = filename.lower().split(".")[0].replace("problem", "")
     serial = int(_fn)
     return serial
+
 
 def find_missing():
     current_max = -1
@@ -18,9 +20,9 @@ def find_missing():
         if c > current_max:
             current_max = c
         found.append(c)
-    for i in range(1,current_max + 1):
+    for i in range(1, current_max + 1):
         if i not in found:
-            print(("Problem {n} missing!".format(n = i)))
+            print(("Problem {n} missing!".format(n=i)))
 
 
 def file_yielder():
@@ -31,9 +33,10 @@ def file_yielder():
 
 def rename_main():
     for i in file_yielder():
-        os.rename(os.path.join(os.getcwd(), i), os.path.join(os.getcwd(), number_complete(i)))
+        os.rename(os.path.join(os.getcwd(), i), os.path.join(
+            os.getcwd(), number_complete(i)))
         print((i, ">>", number_complete(i)))
 
 if __name__ == '__main__':
-    rename_main()
+    # rename_main()
     find_missing()
