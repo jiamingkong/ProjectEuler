@@ -1,5 +1,5 @@
 
-from .seq_generator import generate, math_gen
+from seq_generator import generate, math_gen
 from multiprocessing import Pool
 
 
@@ -52,12 +52,12 @@ def to_standard(lst):
     i-th smallest element with the integer i."""
     result = [0 for i in range(len(lst))]
     for i, (_, j) in enumerate(sorted((lst[j], j) for j in range(len(lst)))):
-        result[j] = i+1
+        result[j] = i + 1
     return result
 
 
 def u(x):
-    return 3*x + 1
+    return 3 * x + 1
 
 
 def d(x):
@@ -68,14 +68,15 @@ def d(x):
 
 
 def D(x):
-    return 2 * x
+    return 2. * x
 
 
 def U(x):
-    if (x-1) % 3 == 0:
-        return (x - 1) // 3
-    else:
-        raise ArithmeticError("Not a multiple of 3")
+    return (x-1)/3
+    # if (x - 1) % 3 == 0:
+        # return (x - 1) // 3
+    # else:
+        # raise ArithmeticError("Not a multiple of 3")
 
 
 mapper = {"u": U,
@@ -170,7 +171,8 @@ if __name__ == '__main__':
     # print list_17
     # for i in list_17:
     #     print i, i.count('u'), i.count('d')
-    print((sorted(find_excessive_generator_by_extension(p, a + 1, list_17)), "Extension"))
+    print(
+        (sorted(find_excessive_generator_by_extension(p, a + 1, list_17)), "Extension"))
     print((sorted(find_excessive_generator(p, a + 2)), "Raw"))
     # print test_excessive_pattern("uuddddudududduddd")
     # print len(find_excessive_generator(p, 18))

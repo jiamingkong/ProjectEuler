@@ -1,6 +1,7 @@
-from .Collatz import test_excessive_pattern
-from .seq_generator import generate
-from multiprocessing import Process, Queue
+from Collatz import test_excessive_pattern
+from seq_generator import generate
+# from multiprocessing import Process, Queue
+
 
 def find_excessive_generator(length):
     result = 0
@@ -14,8 +15,8 @@ def find_excessive_generator(length):
 
 
 if __name__ == '__main__':
-    i = 20
+    i = 29
     result = find_excessive_generator(i)
-    print((i+1, find_excessive_generator(i)))
+    print((i + 1, result))
     f = open("ProjectEuler494.txt", "w")
     f.write(str(result))
