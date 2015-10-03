@@ -21,7 +21,6 @@ def PrimeGenerator(count = None, under = None):
             for p in D[q]:
                 D.setdefault(p + q, []).append(p)
             del D[q]
-
         q += 1
 
 
