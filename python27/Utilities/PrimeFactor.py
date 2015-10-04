@@ -30,8 +30,8 @@ def num_of_divisors(x):
 
 def list_divisors(num):
     primes = list(Counter(prime_factors(num)).items())
-    pdb.set_trace()
     nFactors = len(primes)
+    print(primes, nFactors)
     f = [0] * nFactors
     while True:
         yield reduce(lambda x, y: x * y, [primes[x][0]**f[x] for x in range(nFactors)], 1)
@@ -47,4 +47,5 @@ def list_divisors(num):
 
 
 if __name__ == '__main__':
-    print(list(list_divisors(100)))
+    # print(list(list_divisors(100)))
+    print(list(list_divisors(1)))
