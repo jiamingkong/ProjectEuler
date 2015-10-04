@@ -1,3 +1,6 @@
 from Utilities.PrimeFactor import prime_factors
 
-max_sum = 12000
+# max_sum = 12000
+
+
+    
