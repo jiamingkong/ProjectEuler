@@ -1,7 +1,8 @@
 import math
 from .gcd import gcd
 
-def PrimeGenerator(count = None, under = None):
+
+def PrimeGenerator(count=None, under=None):
     D = {}
     q = 2
     c = 0
@@ -12,10 +13,10 @@ def PrimeGenerator(count = None, under = None):
     if under is not None:
         test = lambda c, q: q <= under
 
-    while test(c,q):
+    while test(c, q):
         if q not in D:
             yield q
-            c+= 1
+            c += 1
             D[q * q] = [q]
         else:
             for p in D[q]:
@@ -29,9 +30,10 @@ def is_prime(n):
     if n <= 0:
         return False
     for i in range(2, int(math.sqrt(n)+1)):
-        if n%i == 0:
+        if n % i == 0:
             return False
-    return n > 1;
+    return n > 1
+
 
 def __euler_loop(n):
     coprimes = [1]
@@ -40,13 +42,14 @@ def __euler_loop(n):
             coprimes.append(i)
     return len(coprimes)
 
+
 def totient(n):
     if not isinstance(n, int) or n < 1:
-        raise ValueError("Can't compute totient function for {n}".format(n = n))
+        raise ValueError("Can't compute totient function for {n}".format(n=n))
     if n == 1:
         return 1
     elif is_prime(n):
-        return n -1
+        return n - 1
     else:
         return __euler_loop(n)
 

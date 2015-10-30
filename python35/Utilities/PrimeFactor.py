@@ -1,20 +1,22 @@
 from collections import Counter
 from functools import reduce
 
+
 def prime_factors(x):
     factors = []
-    while x%2 == 0:
+    while x % 2 == 0:
         factors.append(2)
-        x /=2
+        x /= 2
     i = 3
     while i * i <= x:
-        while x%i == 0:
-            x /=i
+        while x % i == 0:
+            x /= i
             factors.append(i)
         i += 2
-    if x>1:
+    if x > 1:
         factors.append(x)
     return factors
+
 
 def num_of_divisors(x):
     primes = prime_factors(x)
@@ -24,6 +26,7 @@ def num_of_divisors(x):
         result *= (i + 1)
     return result
 
+
 def list_divisors(num):
     if int(num) == 1:
         return
@@ -31,7 +34,8 @@ def list_divisors(num):
     nFactors = len(primes)
     f = [0] * nFactors
     while True:
-        yield reduce(lambda x, y: x*y, [primes[x][0]**f[x] for x in range(nFactors)], 1)
+        yield reduce(lambda x, y: x*y,
+                     [primes[x][0]**f[x] for x in range(nFactors)], 1)
         i = 0
         while True:
             try:
