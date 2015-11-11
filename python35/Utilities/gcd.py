@@ -13,3 +13,6 @@ def lcm(*numbers):
 def fraction_reduce(x, y):
     g = gcd(x,y)
     return x / g, y / g
+
+
+# print "this"
