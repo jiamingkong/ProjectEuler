@@ -1,13 +1,15 @@
-cache = {2:2, 1:1}
+cache = {2: 2, 1: 1}
+
 
 def Collatz_gen(x):
     while x != 1:
-        if x%2 == 0:
-            x/=2
+        if x % 2 == 0:
+            x /= 2
             yield x
         else:
             x = 3 * x + 1
             yield x
+
 
 def Collatz_length(x):
     global cache
@@ -20,6 +22,7 @@ def Collatz_length(x):
             cache[x] = cache[i] + counter
             break
     return cache[x]
+
 
 def main():
     global cache

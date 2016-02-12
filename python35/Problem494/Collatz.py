@@ -30,7 +30,7 @@ def reverse_Collatz(number):
         # yield number * 2
     # else:
     return [number * 2]
-        # yield number * 2
+    # yield number * 2
 
 
 def end(number):

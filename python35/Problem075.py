@@ -5,10 +5,10 @@ from Utilities.gcd import gcd
 def main():
     result = 0
     limit = 1500000
-    cache = {i:0 for i in range(0,limit + 1)}
-    for m in range(2,trunc(sqrt(limit)) + 1):
-        for n in range(1,m):
-            if (n + m) % 2 == 1 and gcd(n,m) == 1:
+    cache = {i: 0 for i in range(0, limit + 1)}
+    for m in range(2, trunc(sqrt(limit)) + 1):
+        for n in range(1, m):
+            if (n + m) % 2 == 1 and gcd(n, m) == 1:
                 a = m * m + n * n
                 b = m * m - n * n
                 c = 2 * m * n

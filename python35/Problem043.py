@@ -1,5 +1,6 @@
 from itertools import permutations
 
+
 def generator():
     num_list = list(map(str, list(range(0, 10))))
     for i in permutations(num_list, 10):
@@ -12,6 +13,7 @@ def check_number(i):
         return True
     else:
         return False
+
 
 def main():
     result = 0

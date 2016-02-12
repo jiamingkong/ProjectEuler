@@ -3,8 +3,8 @@ from .seq_generator import generate
 from multiprocessing import Process, Queue, Value, Pool
 
 
-
 class Counter(object):
+
     def __init__(self):
         self.val = Value('i', 0)
 
@@ -39,9 +39,9 @@ if __name__ == '__main__':
     leng = 20
     c = Counter()
     queue = Queue(60000)
-    writer = Process(target = feeder_thread, args = (queue,leng))
+    writer = Process(target=feeder_thread, args=(queue, leng))
     writer.start()
-    processes = [Process(target = worker, args = (queue, c)) for i in range(3)]
+    processes = [Process(target=worker, args=(queue, c)) for i in range(3)]
     for i in processes:
         i.daemon = True
         i.start()

@@ -1,11 +1,12 @@
 def unlimited_fib():
-    a =0
-    b =1
+    a = 0
+    b = 1
     counter = 1
     while True:
         yield (counter, b)
         a, b = b, a + b
         counter += 1
+
 
 def main():
     for counter, number in unlimited_fib():

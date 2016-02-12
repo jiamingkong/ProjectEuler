@@ -1,6 +1,7 @@
 from operator import __mul__
 from functools import reduce
 
+
 def generate(target_length, positions):
     result = " "
     current = 1
@@ -13,7 +14,7 @@ def generate(target_length, positions):
 
 
 def main():
-    numbers = generate(1000000, [1,10,100,1000, 10000, 100000, 1000000])
+    numbers = generate(1000000, [1, 10, 100, 1000, 10000, 100000, 1000000])
     print(reduce(__mul__, numbers))
 
 

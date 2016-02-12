@@ -1,5 +1,6 @@
 from Utilities.PrimeFactor import num_of_divisors
 
+
 def num_generator():
     start = 1
     result = 0
@@ -7,6 +8,7 @@ def num_generator():
         result += start
         start += 1
         yield result
+
 
 def main():
     for i in num_generator():

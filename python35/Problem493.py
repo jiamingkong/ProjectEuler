@@ -1,8 +1,9 @@
 from Utilities.factorial import factorial
 
+
 def choose(n, m):
     assert n >= m
-    return int(factorial(n) / factorial(m) / factorial(n- m))
+    return int(factorial(n) / factorial(m) / factorial(n - m))
 
 
 def main():

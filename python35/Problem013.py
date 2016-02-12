@@ -101,10 +101,12 @@ numbers = '''\
 53503534226472524250874054075591789781264330331690
 '''
 
+
 def generator(string):
     for i in string.split("\n"):
-        if i!= "":
+        if i != "":
             yield int(i)
+
 
 def main():
     result = 0
@@ -116,4 +118,5 @@ def main():
 if __name__ == '__main__':
     main()
 
-    # this is a little bit like cheating because Python handles bigInt very very well.
+    # this is a little bit like cheating because Python handles bigInt very
+    # very well.

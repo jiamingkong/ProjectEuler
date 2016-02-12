@@ -1,6 +1,7 @@
 from itertools import permutations
 from Utilities.PrimeGenerator import is_prime
 
+
 def generator(n):
     num_list = list(map(str, list(range(1, n + 1))))
     for i in permutations(num_list, n):

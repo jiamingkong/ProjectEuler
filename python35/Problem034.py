@@ -3,6 +3,7 @@ from functools import reduce
 
 cache = {}
 
+
 def factorial(x):
     global cache
     x = int(x)
@@ -11,6 +12,7 @@ def factorial(x):
     if x not in cache:
         cache[x] = reduce(__mul__, range(1, x+1))
     return cache[x]
+
 
 def main():
     result = 0

@@ -6,6 +6,7 @@ solve : n * 60000 < 10**n makes approx 5.5
 
 '''
 
+
 def test_number(number):
     sums = sum([int(x)**5 for x in list(str(number))])
     return sums == number

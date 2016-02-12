@@ -67,11 +67,12 @@ def main():
     sigma = 'ududdududududdudddudududdududdududududududddududududddduddudduddddudddudududdddd'
     test_intersection_point(sigma + 'u')
 
+
 def grow_it(number, target_length, ):
     # counter = target_length - len()
     # whi
-    a,b = reverse_Collatz(number)
-    print(a,b)
+    a, b = reverse_Collatz(number)
+    print(a, b)
     pdb.set_trace()
 
 
@@ -86,6 +87,6 @@ if __name__ == '__main__':
     # f.write(str(result))
     # print(test_excessive_pattern(sigma))
     # for i in get_possible_witness(sigma):
-        # print(i)
+    # print(i)
 
     # y_intercept('ududdududududdudddudududdududdududududududddududududddduddudduddddudddudududdddd')

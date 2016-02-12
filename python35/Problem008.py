@@ -24,10 +24,12 @@ number = '''\
 71636269561882670428252483600823257530420752963450
 '''
 
+
 def yielder(string):
     for i in string:
-        if i!= "\n":
+        if i != "\n":
             yield int(i)
+
 
 def find_adjacent(gen, digits):
     product = 0

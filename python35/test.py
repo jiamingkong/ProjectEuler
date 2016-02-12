@@ -8,7 +8,7 @@ class myc:
 
     def f2(self):
         b = myc.a[:]
-        b.extend(['f','g'])
+        b.extend(['f', 'g'])
         return b
 
 cvar = myc()

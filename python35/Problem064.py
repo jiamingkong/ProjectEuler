@@ -2,8 +2,10 @@ from math import sqrt
 
 loop_cache = []
 
+
 def find_sqrt(number):
     return int(sqrt(number))
+
 
 def fraction_expansion(s):
     m = 0
@@ -30,13 +32,14 @@ def find_loop(generator):
             loop_cache = []
             return d
 
+
 def main():
     odd_period = 0
     for i in range(10001):
-        if find_sqrt(i) **2 == i:
+        if find_sqrt(i) ** 2 == i:
             continue
         else:
-            if find_loop(fraction_expansion(i)) %2 == 1:
+            if find_loop(fraction_expansion(i)) % 2 == 1:
                 odd_period += 1
     print(odd_period)
 

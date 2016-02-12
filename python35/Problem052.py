@@ -2,8 +2,10 @@
 def all_same(a_list):
     return all(x == a_list[0] for x in a_list)
 
+
 def test_number(x):
-    return all_same([''.join(sorted(str(i * x))) for i in range(1,7)])
+    return all_same([''.join(sorted(str(i * x))) for i in range(1, 7)])
+
 
 def main():
     x = 123456

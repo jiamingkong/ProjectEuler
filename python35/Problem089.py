@@ -5,17 +5,30 @@ https://github.com/zopefoundation/roman
 '''
 
 
-
 import re
-import urllib.request, urllib.error, urllib.parse
+import urllib.request
+import urllib.error
+import urllib.parse
 
-#Define exceptions
-class RomanError(Exception): pass
-class OutOfRangeError(RomanError): pass
-class NotIntegerError(RomanError): pass
-class InvalidRomanNumeralError(RomanError): pass
+# Define exceptions
 
-#Define digit mapping
+
+class RomanError(Exception):
+    pass
+
+
+class OutOfRangeError(RomanError):
+    pass
+
+
+class NotIntegerError(RomanError):
+    pass
+
+
+class InvalidRomanNumeralError(RomanError):
+    pass
+
+# Define digit mapping
 romanNumeralMap = (('M',  1000),
                    ('CM', 900),
                    ('D',  500),
@@ -29,6 +42,7 @@ romanNumeralMap = (('M',  1000),
                    ('V',  5),
                    ('IV', 4),
                    ('I',  1))
+
 
 def toRoman(n):
     """convert integer to Roman numeral"""
@@ -44,7 +58,7 @@ def toRoman(n):
             n -= integer
     return result
 
-#Define pattern to detect valid Roman numerals
+# Define pattern to detect valid Roman numerals
 romanNumeralPattern = re.compile("""
     ^                   # beginning of string
     M{0,4}              # thousands - 0 to 4 M's
@@ -55,7 +69,8 @@ romanNumeralPattern = re.compile("""
     (IX|IV|V?I{0,1000})    # ones - 9 (IX), 4 (IV), 0-3 (0 to 3 I's),
                         #        or 5-8 (V, followed by 0 to 3 I's)
     $                   # end of string
-    """ ,re.VERBOSE)
+    """ , re.VERBOSE)
+
 
 def fromRoman(s):
     """convert Roman numeral to integer"""
@@ -77,6 +92,7 @@ def yield_file_by_url(url):
     data = urllib.request.urlopen(url)
     for i in data:
         yield i.strip()
+
 
 def main():
     url = "https://projecteuler.net/project/resources/p089_roman.txt"

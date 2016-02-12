@@ -4,17 +4,22 @@ solution = [0] * 6
 def triangle(n):
     return n * (n + 1) / 2
 
+
 def square(n):
     return n * n
+
 
 def pentagonal(n):
     return n * (3 * n - 1) / 2
 
+
 def hexagonal(n):
     return n * (2 * n - 1)
 
+
 def heptagonal(n):
     return n * (5 * n - 3) / 2
+
 
 def octagonal(n):
     return n * (3 * n - 2)
@@ -30,6 +35,7 @@ def generate(function, start, end):
         n += 1
         current = triangle(n)
     return result
+
 
 def find_chain(numbers, last, length):
     global solution
@@ -55,12 +61,11 @@ def find_chain(numbers, last, length):
     return False
 
 
-
-
 def main():
     # solution = [0] * 6
     global solution
-    all_numbers = [generate(x, 1000, 10000) for x in [triangle, square,pentagonal,hexagonal,heptagonal, octagonal]]
+    all_numbers = [generate(x, 1000, 10000) for x in [
+        triangle, square, pentagonal, hexagonal, heptagonal, octagonal]]
     for i in all_numbers:
         print(i)
 

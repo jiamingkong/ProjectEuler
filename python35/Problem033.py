@@ -1,7 +1,8 @@
 from itertools import product
 from Utilities.gcd import fraction_reduce
 
-def cancel(a,b):
+
+def cancel(a, b):
     str_a, str_b = list(str(a)), list(str(b))
     for i in str_a:
         if i == '0':
@@ -12,7 +13,7 @@ def cancel(a,b):
             x, y = int(''.join(str_a)), int(''.join(str_b))
             return x, y
     return 0, 1
-            
+
 
 def digit_cancelling(tuple):
     a, b = tuple
@@ -29,13 +30,13 @@ def digit_cancelling(tuple):
 
 def main():
     _a, _b = 1, 1
-    for a, b in filter(digit_cancelling, product(range(11,100), range(11,100))):
+    for a, b in filter(digit_cancelling, product(range(11, 100), range(11, 100))):
         _a *= a
         _b *= b
 
     print(_a, _b)
     print(">> ", fraction_reduce(_a, _b))
-    
+
 
 if __name__ == '__main__':
     main()

@@ -1,20 +1,21 @@
-def check_right_angle(a,b,c):
+def check_right_angle(a, b, c):
     return a * a + b * b == c * c
 
 
 def generate_sides(perimeter):
-    for a in range(1,perimeter / 2):
+    for a in range(1, perimeter / 2):
         for b in range(a+1, perimeter / 2):
             c = perimeter - a - b
             yield a, b, c
+
 
 def main():
     max_found = 0
     max_p = None
     for p in range(1, 1001):
         result = 0
-        for a,b,c in generate_sides(p):
-            if check_right_angle(a,b,c):
+        for a, b, c in generate_sides(p):
+            if check_right_angle(a, b, c):
                 result += 1
         if result > max_found:
             max_p = p

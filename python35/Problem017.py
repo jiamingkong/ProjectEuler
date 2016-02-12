@@ -1,7 +1,9 @@
 import numspell
 
+
 def count_num(speller, number):
     return len(speller.spell(number).replace(" ", "").replace("-", ""))
+
 
 def main():
     speller = numspell.Speller('en')

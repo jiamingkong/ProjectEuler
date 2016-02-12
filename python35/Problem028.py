@@ -1,4 +1,5 @@
-# sorry I am too lazy to come up with anything faster. I know I can do a poly-nomial.
+# sorry I am too lazy to come up with anything faster. I know I can do a
+# poly-nomial.
 
 
 def main(side):

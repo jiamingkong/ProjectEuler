@@ -16,6 +16,7 @@ numbers = '''\
 04 62 98 27 23 09 70 98 73 93 38 53 60 04 23
 '''
 
+
 def main(string):
     array = build_array(string)
     step = 2
@@ -24,7 +25,6 @@ def main(string):
         result = dp_step(result, array[step])
         step += 1
     print(max(result))
-        
 
 
 def dp_step(upper, lower):
@@ -34,10 +34,11 @@ def dp_step(upper, lower):
         result.append(max([_upper[i], _upper[i+1]]) + num)
     return result
 
+
 def build_array(string):
     result = []
     for i in string.split("\n"):
-        if i!= "":
+        if i != "":
             result.append(list(map(int, i.split(" "))))
     return result
 

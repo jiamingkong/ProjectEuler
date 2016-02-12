@@ -1,12 +1,14 @@
 def find_reminder(denom, nom):
     return denom / nom, denom % nom
 
+
 def enlarge(remainder, nom):
     counter = 0
     while remainder < nom:
         counter += 1
         remainder *= 10
     return remainder, counter - 1
+
 
 def find_cycle(nom):
     length = 0
@@ -25,7 +27,6 @@ def find_cycle(nom):
             met_remainder.append(remainder)
         denom = remainder
     return length
-
 
 
 if __name__ == '__main__':

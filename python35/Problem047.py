@@ -1,7 +1,9 @@
 from Utilities.PrimeFactor import prime_factors
 
+
 def count_prime_factors(x):
     return len(set(prime_factors(x)))
+
 
 def main():
     n = 1
