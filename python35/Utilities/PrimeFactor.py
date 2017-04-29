@@ -14,7 +14,7 @@ def prime_factors(x):
             factors.append(i)
         i += 2
     if x > 1:
-        factors.append(x)
+        factors.append(int(x))
     return factors
 
 

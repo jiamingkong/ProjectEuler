@@ -19,7 +19,7 @@ except:
 __cache__ = os.path.join(app_root, "Cache", "tmp")
 
 
-def lru_cache_function(max_size=1024, expiration=15 * 60):
+def lru_cache_function(max_size=1024, expiration=1200 * 60):
     """
     >>> @lru_cache_function(3, 1)
     ... def f(x):

@@ -3,7 +3,7 @@ from .gcd import gcd
 from math import log
 
 
-def PrimeGenerator(count=None, under=None):
+def PrimeGenerator(count=None, after = 1, under=None):
     D = {}
     q = 2
     c = 0
@@ -14,9 +14,11 @@ def PrimeGenerator(count=None, under=None):
     if under is not None:
         test = lambda c, q: q <= under
 
+
     while test(c, q):
         if q not in D:
-            yield q
+            if q >= after:
+                yield q
             c += 1
             D[q * q] = [q]
         else:
