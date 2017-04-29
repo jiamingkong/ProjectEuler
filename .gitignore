@@ -1,4 +1,4 @@
 *.pyc
 Others
 .idea/
-/python35/.idea
+python35/.idea
