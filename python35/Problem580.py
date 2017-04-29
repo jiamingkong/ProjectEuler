@@ -21,8 +21,6 @@ def get_f(i, n,m):
     # print(i)
     result = int((n / i / i + 3) / 4)
     for j in range(3, int(m /i+1), 2):
-    # for j in range(int(m/i), 3, -2):
-        # print(j)
         result -= get_f(i*j, n, m)
     return result
 
@@ -52,8 +50,8 @@ def count_prime(under):
     return counter
 
 if __name__ == '__main__':
-    # for i in [1e7,1e8,1e9,1e10, 1e11]:
-    #     main(i)
+    for i in [1e8,1e9,1e10, 1e11, 1e12, 1e13, 1e14, 1e15, 1e16]:
+        main(i)
     # main(1e16)
 
     # print(get_f(1, 1e12, np.sqrt(1e12)))
@@ -62,7 +60,7 @@ if __name__ == '__main__':
     # print(get_f_faster(7, 1e8))
     # print(get_f_faster(7, 1e9))
     # print(get_f_faster(7, 1e10))
-    print(get_f_faster(9999837, 1e16))
+    # print(get_f_faster(9999837, 1e16))
 
     # print(count_prime(1e8))
     # print(count_prime(1e4))
