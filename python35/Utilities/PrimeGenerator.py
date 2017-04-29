@@ -158,8 +158,4 @@ def totient(n):
         return __euler_loop(n)
 
 if __name__ == '__main__':
-    # for i in PrimeGenerator(under = 100):
-        # print i
-
-    # print(totient(10))
     print(fast_is_prime(3))
