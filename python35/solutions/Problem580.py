@@ -38,7 +38,7 @@ def main(n):
 
 @timeit
 def get_f_faster(i, n):
-    m = np.sqrt(n)
+    m = int(np.sqrt(n))
     return get_f(i, n, m)
 
 
@@ -50,7 +50,7 @@ def count_prime(under):
     return counter
 
 if __name__ == '__main__':
-    for i in [1e8,1e9,1e10, 1e11, 1e12, 1e13, 1e14, 1e15, 1e16]:
+    for i in [1e8,1e9,1e10, 1e11, 1e12, 1e13]:
         main(i)
     # main(1e16)
 
