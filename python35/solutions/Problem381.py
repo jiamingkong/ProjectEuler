@@ -1,10 +1,26 @@
-# For a prime p let S(p) = (∑(p-k)!) mod(p) for 1 ≤ k ≤ 5.
-#
-# For example, if p=7,
-# (7-1)! + (7-2)! + (7-3)! + (7-4)! + (7-5)! = 6! + 5! + 4! + 3! + 2! = 720+120+24+6+2 = 872.
-# As 872 mod(7) = 4, S(7) = 4.
-#
-# It can be verified that ∑S(p) = 480 for 5 ≤ p < 100.
-#
-# Find ∑S(p) for 5 ≤ p < 108.
+from Utilities import PrimeGenerator
 
+def egcd(a, b):
+    if a == 0:
+        return (b, 0, 1)
+    else:
+        g, y, x = egcd(b % a, a)
+        return (g, x - (b // a) * y, y)
+
+def modinv(a, m):
+    g, x, y = egcd(a, m)
+    if g != 1:
+        raise Exception('modular inverse does not exist')
+    else:
+        return x % m
+
+
+
+
+def S(p):
+    return (3 * modinv((-8)%p, p)) % p
+
+def main(n):
+    return sum(S(p) for p in list(PrimeGenerator(under=n))[2:])
+
+print(main(10**8))

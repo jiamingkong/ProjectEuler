@@ -1,7 +1,6 @@
 from math import sqrt, trunc
 from Utilities.gcd import gcd
 
-
 def factorial(n):
     if n in [0, 1]:
         return 1
