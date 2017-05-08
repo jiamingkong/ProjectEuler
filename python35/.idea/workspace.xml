@@ -2,92 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94054de7-d69d-4834-807d-dcc27c86293a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Problem346.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Problem347.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Problem381.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem022.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem023.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem024.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem025.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem026.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem027.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem028.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem029.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem030.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem031.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem032.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem033.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem034.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem035.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem036.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem037.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem038.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem039.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem040.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem041.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem042.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem043.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem044.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem045.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem046.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem047.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem048.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem049.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem050.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem051.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem052.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem053.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem054.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem055.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem056.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem060.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem061.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem062.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem064.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem065.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem067.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem068.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem069.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem073.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem074.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem075.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem076.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem077.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem087.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem088.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem089.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem090.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem091.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem092.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem095.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem099.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem102.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem112.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem144.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem301.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem357.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem387.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem493.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem494.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem494/30.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem494/31.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem494/Collatz.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem494/Problem494.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem494/Problem494_multithread.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem494/ProjectEuler494.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem494/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem494/case_study.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem494/seq_generator.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem523.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem580.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Problem601.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p099_base_exp.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p102_triangles.txt" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Problem145.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Problem504.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Utilities/__init__.py" afterPath="$PROJECT_DIR$/Utilities/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Problem109.py" afterPath="$PROJECT_DIR$/solutions/Problem109.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Problem110.py" afterPath="$PROJECT_DIR$/solutions/Problem110.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Problem111.py" afterPath="$PROJECT_DIR$/solutions/Problem111.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -99,46 +16,29 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python35$Problem580.coverage" NAME="Problem580 Coverage Results" MODIFIED="1493570939865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python35$Problem111.coverage" NAME="Problem111 Coverage Results" MODIFIED="1493909305364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" />
-    <SUITE FILE_PATH="coverage/python35$Problem346.coverage" NAME="Problem346 Coverage Results" MODIFIED="1493982220705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" />
     <SUITE FILE_PATH="coverage/python35$Problem601.coverage" NAME="Problem601 Coverage Results" MODIFIED="1493503757311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python35$Problem109.coverage" NAME="Problem109 Coverage Results" MODIFIED="1493908767343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" />
     <SUITE FILE_PATH="coverage/python35$Problem580__1_.coverage" NAME="Problem580 (1) Coverage Results" MODIFIED="1493709400237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" />
     <SUITE FILE_PATH="coverage/python35$email_me.coverage" NAME="email_me Coverage Results" MODIFIED="1493378940387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utilities" />
     <SUITE FILE_PATH="coverage/python35$Problem347.coverage" NAME="Problem347 Coverage Results" MODIFIED="1493983935996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" />
+    <SUITE FILE_PATH="coverage/python35$Problem381.coverage" NAME="Problem381 Coverage Results" MODIFIED="1493985367912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" />
+    <SUITE FILE_PATH="coverage/python35$Problem346.coverage" NAME="Problem346 Coverage Results" MODIFIED="1493982220705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" />
+    <SUITE FILE_PATH="coverage/python35$Problem109.coverage" NAME="Problem109 Coverage Results" MODIFIED="1493908767343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" />
+    <SUITE FILE_PATH="coverage/python35$Problem145.coverage" NAME="Problem145 Coverage Results" MODIFIED="1494082902117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" />
     <SUITE FILE_PATH="coverage/python35$Problem110.coverage" NAME="Problem110 Coverage Results" MODIFIED="1493907759328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" />
     <SUITE FILE_PATH="coverage/python35$Problem549.coverage" NAME="Problem549 Coverage Results" MODIFIED="1493709394989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python35$Problem108.coverage" NAME="Problem108 Coverage Results" MODIFIED="1493902461902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python35$Problem504.coverage" NAME="Problem504 Coverage Results" MODIFIED="1494229131701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solutions" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Problem346.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solutions/Problem346.py">
+      <file leaf-file-name="Problem504.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/solutions/Problem504.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10">
-              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem347.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solutions/Problem347.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem381.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/solutions/Problem381.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="525">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
-                <marker date="1493984092000" expanded="true" signature="2:297" ph="..." />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -180,7 +80,10 @@
         <option value="$PROJECT_DIR$/solutions/Problem111.py" />
         <option value="$PROJECT_DIR$/solutions/Problem346.py" />
         <option value="$PROJECT_DIR$/solutions/Problem347.py" />
+        <option value="$PROJECT_DIR$/Utilities/factorial.py" />
         <option value="$PROJECT_DIR$/solutions/Problem381.py" />
+        <option value="$PROJECT_DIR$/solutions/Problem504.py" />
+        <option value="$PROJECT_DIR$/solutions/Problem145.py" />
       </list>
     </option>
   </component>
@@ -212,7 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -235,6 +137,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Utilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python35" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python35" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="solutions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -242,6 +158,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,64 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Problem347">
-    <configuration default="false" name="Problem110" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/solutions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python35" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/solutions/Problem110.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Problem109" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/solutions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python35" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/solutions/Problem109.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Problem111" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/solutions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python35" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/solutions/Problem111.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Problem504">
     <configuration default="false" name="Problem346" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -359,6 +219,63 @@
       <module name="python35" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/solutions/Problem347.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Problem381" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/solutions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python35" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/solutions/Problem381.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Problem145" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/solutions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python35" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/solutions/Problem145.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Problem504" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/solutions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python35" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/solutions/Problem504.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -514,19 +431,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Problem110" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Problem109" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Problem111" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Problem346" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Problem347" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Problem346" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Problem347" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Problem381" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Problem145" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Problem504" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Problem347" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Problem346" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Problem111" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Problem109" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Problem110" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Problem504" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Problem145" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Problem381" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Problem347" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Problem346" />
       </list>
     </recent_temporary>
   </component>
@@ -547,16 +464,15 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1388889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21219227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1388889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -566,6 +482,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -592,31 +509,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Utilities/MemCache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/PrimeGenerator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-            <element signature="e#774#4744#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Utilities/PrimeFactor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -653,10 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-            <element signature="e#774#4744#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,9 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -674,9 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -699,10 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1239">
           <caret line="159" column="26" lean-forward="false" selection-start-line="159" selection-start-column="26" selection-end-line="159" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-            <element signature="e#774#4744#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -710,9 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -720,9 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,10 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1239">
           <caret line="159" column="26" lean-forward="false" selection-start-line="159" selection-start-column="26" selection-end-line="159" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-            <element signature="e#774#4744#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,9 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -766,9 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -784,10 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1239">
           <caret line="159" column="26" lean-forward="false" selection-start-line="159" selection-start-column="26" selection-end-line="159" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-            <element signature="e#774#4744#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -795,9 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -805,9 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,10 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1239">
           <caret line="159" column="26" lean-forward="false" selection-start-line="159" selection-start-column="26" selection-end-line="159" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-            <element signature="e#774#4744#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -827,9 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -837,9 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,13 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/factorial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -884,10 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-            <element signature="e#774#4744#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -895,9 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -905,9 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -953,11 +782,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solutions/Problem346.py">
+    <entry file="file://$PROJECT_DIR$/solutions/Problem381.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="420">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -965,16 +793,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solutions/Problem346.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utilities/factorial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solutions/Problem381.py">
+    <entry file="file://$PROJECT_DIR$/solutions/Problem145.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="251">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solutions/Problem504.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <marker date="1493984092000" expanded="true" signature="2:297" ph="..." />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
